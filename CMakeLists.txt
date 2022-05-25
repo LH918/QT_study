@@ -18,6 +18,8 @@ set(TS_FILES study_zh_CN.ts)
 
 add_executable(study
   main.cpp
+  test.cpp
+  test.h
   ${TS_FILES}
 )
 target_link_libraries(study Qt${QT_VERSION_MAJOR}::Core)
